@@ -13,7 +13,6 @@ substitutions:
 
   # Define the GPIO pins
   pulse_pin: GPIO5
-  status_led: GPIO13
   led_pin_red: GPIO2
   led_pin_green: GPIO4
 
@@ -39,7 +38,6 @@ packages:
     files:
       - components/basis.yaml
       - components/updates.yaml
-      - components/status_led.yaml
       - components/pulse_meter.yaml
 
 # Enable logging
